@@ -1,4 +1,4 @@
-# nimble-carthage-problem
+# NimbleCarthageProblem
 
 This repository contains a simple iOS project to demonstrate and document the problem I have encounter when
 working with Nimble and Carthage.
@@ -53,10 +53,15 @@ I also created a convenience scheme for the `ExampleFrameworkTests` target:
 
 I run the tests and everything pass. All fine.
 
+## Bot
 
+Now I create a bot for `ExampleFrameworkTests` scheme - manual trigger, on branch master:
 
+![BotConfiguration1](images/BotConfiguration1.png)
 
+![BotConfiguration2](images/BotConfiguration2.png)
 
-    
-    
+The bot runs successfully.
+
+![BotSummaryXCTest](images/BotSummaryXCTest.png)
 
