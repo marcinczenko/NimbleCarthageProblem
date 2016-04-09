@@ -2,17 +2,17 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/ExampleFrameworkTests/ExampleClassTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ExampleFrameworkTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ExampleFramework/ExampleFramework.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ExampleFramework/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ExampleFramework/ExampleClass.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NimbleCarthageProblem/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NimbleCarthageProblem/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NimbleCarthageProblem/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NimbleCarthageProblem/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NimbleCarthageProblem/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NimbleCarthageProblem/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExampleFrameworkTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExampleFrameworkTests/ExampleClassTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExampleFramework/ExampleFramework.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExampleFramework/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExampleFramework/ExampleClass.swift" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
