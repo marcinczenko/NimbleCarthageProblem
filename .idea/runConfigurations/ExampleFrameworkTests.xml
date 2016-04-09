@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ExampleFrameworkTests" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NimbleCarthageProblem" TARGET_NAME="ExampleFrameworkTests" CONFIG_NAME="Debug" SCHEME_NAME="ExampleFrameworkTests" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="0">
+    <envs />
+    <method />
+  </configuration>
+</component>
