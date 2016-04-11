@@ -18,6 +18,8 @@
 		6DFB5E7E1CB9243F0093973A /* ExampleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFB5E691CB9243F0093973A /* ExampleFramework.framework */; };
 		6DFB5E7F1CB9243F0093973A /* ExampleFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFB5E691CB9243F0093973A /* ExampleFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6DFB5E881CB9257C0093973A /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFB5E871CB9257C0093973A /* ExampleClass.swift */; };
+		6DFB5E8A1CB92F0F0093973A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFB5E891CB92F0F0093973A /* Nimble.framework */; };
+		6DFB5E8C1CB92F330093973A /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6DFB5E891CB92F0F0093973A /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +29,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6DFB5E681CB9243F0093973A;
 			remoteInfo = ExampleFramework;
-		};
-		6DFB5E761CB9243F0093973A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6DFB5E471CB923160093973A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DFB5E4E1CB923160093973A;
-			remoteInfo = NimbleCarthageProblem;
 		};
 		6DFB5E7C1CB9243F0093973A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -56,6 +51,16 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DFB5E8B1CB92F240093973A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6DFB5E8C1CB92F330093973A /* Nimble.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +78,7 @@
 		6DFB5E791CB9243F0093973A /* ExampleClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClassTests.swift; sourceTree = "<group>"; };
 		6DFB5E7B1CB9243F0093973A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DFB5E871CB9257C0093973A /* ExampleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
+		6DFB5E891CB92F0F0093973A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DFB5E8A1CB92F0F0093973A /* Nimble.framework in Frameworks */,
 				6DFB5E731CB9243F0093973A /* ExampleFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,6 +112,7 @@
 		6DFB5E461CB923160093973A = {
 			isa = PBXGroup;
 			children = (
+				6DFB5E891CB92F0F0093973A /* Nimble.framework */,
 				6DFB5E511CB923160093973A /* NimbleCarthageProblem */,
 				6DFB5E6A1CB9243F0093973A /* ExampleFramework */,
 				6DFB5E781CB9243F0093973A /* ExampleFrameworkTests */,
@@ -212,12 +220,12 @@
 				6DFB5E6E1CB9243F0093973A /* Sources */,
 				6DFB5E6F1CB9243F0093973A /* Frameworks */,
 				6DFB5E701CB9243F0093973A /* Resources */,
+				6DFB5E8B1CB92F240093973A /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				6DFB5E751CB9243F0093973A /* PBXTargetDependency */,
-				6DFB5E771CB9243F0093973A /* PBXTargetDependency */,
 			);
 			name = ExampleFrameworkTests;
 			productName = ExampleFrameworkTests;
@@ -325,11 +333,6 @@
 			isa = PBXTargetDependency;
 			target = 6DFB5E681CB9243F0093973A /* ExampleFramework */;
 			targetProxy = 6DFB5E741CB9243F0093973A /* PBXContainerItemProxy */;
-		};
-		6DFB5E771CB9243F0093973A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6DFB5E4E1CB923160093973A /* NimbleCarthageProblem */;
-			targetProxy = 6DFB5E761CB9243F0093973A /* PBXContainerItemProxy */;
 		};
 		6DFB5E7D1CB9243F0093973A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -511,6 +514,10 @@
 		6DFB5E851CB9243F0093973A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.everydayproductive.ExampleFrameworkTests;
@@ -521,6 +528,10 @@
 		6DFB5E861CB9243F0093973A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ExampleFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.everydayproductive.ExampleFrameworkTests;
@@ -547,6 +558,7 @@
 				6DFB5E631CB923160093973A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DFB5E801CB9243F0093973A /* Build configuration list for PBXNativeTarget "ExampleFramework" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +567,7 @@
 				6DFB5E821CB9243F0093973A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DFB5E841CB9243F0093973A /* Build configuration list for PBXNativeTarget "ExampleFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +576,7 @@
 				6DFB5E861CB9243F0093973A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,11 +7,13 @@
 //
 
 import XCTest
+import Nimble
+
 @testable import ExampleFramework
 
 class ExampleFrameworkTests: XCTestCase {
     
     func testExample() {
-        XCTAssertEqual("hello", ExampleClass().hello())
+        expect(ExampleClass().hello()).to(equal("hello"))
     }
 }
